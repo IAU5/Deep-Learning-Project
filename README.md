@@ -50,6 +50,8 @@ python gui_card_detector.py
 
 Make sure the `best.pt` model file is in the project directory.
 
+Or just Run the .exe file included in the source.
+
 ### Run the Windows Executable
 
 Download and run `AI_Card_Assistant.exe`. No installation required.
