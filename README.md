@@ -26,17 +26,6 @@ The system uses a webcam to capture video input and a YOLOv8 object detection mo
 | Graphical Interface | Tkinter                                |
 | Packaging           | PyInstaller                            |
 
-## Project Structure
-
-```
-├── best.pt                   # Trained YOLOv8 model
-├── gui_card_detector.py      # Main application with GUI
-├── yolov8_utils.py           # YOLOv8 wrapper functions
-├── card_label_map.py         # Mapping from class ID to card name
-├── assets/                   # Optional icons and UI resources
-├── README.md
-```
-
 ## System Workflow
 
 1. Webcam captures live video.
@@ -56,9 +45,6 @@ The system uses a webcam to capture video input and a YOLOv8 object detection mo
 ### Run from Source
 
 ```bash
-git clone https://github.com/yourusername/ai-card-assistant.git
-cd ai-card-assistant
-pip install -r requirements.txt
 python gui_card_detector.py
 ```
 
